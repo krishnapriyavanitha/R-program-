@@ -1,0 +1,9 @@
+R Program using pnorm()
+# Given mean and standard deviation
+mean <- 50
+sd <- 5
+x <- 45
+
+# Probability of weight less than x
+probability <- pnorm(x, mean = mean, sd = sd)
+print(probability)
