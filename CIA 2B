@@ -1,0 +1,9 @@
+R Program using qnorm()
+# Given mean and standard deviation
+mean <- 60
+sd <- 10
+p <- 0.90
+
+# Find the score below which 90% fall
+score <- qnorm(p, mean = mean, sd = sd)
+print(score)
