@@ -1,0 +1,26 @@
+Area of Four Shapes
+# Function to calculate area of rectangle
+rectangle_area <- function(length, width) {
+  return(length * width)
+}
+
+# Function to calculate area of square
+square_area <- function(side) {
+  return(side * side)
+}
+
+# Function to calculate area of circle
+circle_area <- function(radius) {
+  return(pi * radius * radius)
+}
+
+# Function to calculate area of triangle
+triangle_area <- function(base, height) {
+  return(0.5 * base * height)
+}
+
+# Calculate and display areas
+print(rectangle_area(10, 5))
+print(square_area(6))
+print(circle_area(7))
+print(triangle_area(8, 4))
