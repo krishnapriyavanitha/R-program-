@@ -1,0 +1,17 @@
+# Student data frame for Class A
+classA <- data.frame(
+  RollNo = c(1, 2, 3),
+  Name = c("Anu", "Priya", "Kavi")
+)
+
+# Student data frame for Class B
+classB <- data.frame(
+  RollNo = c(4, 5, 6),
+  Name = c("Ravi", "Arun", "Meena")
+)
+
+# Combine both data frames
+masterList <- rbind(classA, classB)
+
+# Display the master list
+print(masterList)
